@@ -1,7 +1,7 @@
 <h1 align="center">Medplum Provider + Metriport</h1>
 <p align="center">A demo EHR that pulls a patient's outside medical records into the chart, built on Medplum and Metriport.</p>
 <p align="center">
-<a href="https://github.com/medplum/medplum-hello-world/blob/main/LICENSE.txt">
+<a href="./LICENSE.txt">
     <img src="https://img.shields.io/badge/license-Apache-blue.svg" />
   </a>
 </p>
