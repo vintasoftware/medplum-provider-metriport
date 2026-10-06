@@ -1,7 +1,7 @@
-<h1 align="center">Medplum + Metriport Demo</h1>
+<h1 align="center">Medplum Provider + Metriport</h1>
 <p align="center">A demo EHR that pulls a patient's outside medical records into the chart, built on Medplum and Metriport.</p>
 <p align="center">
-<a href="https://github.com/medplum/medplum-hello-world/blob/main/LICENSE.txt">
+<a href="./LICENSE.txt">
     <img src="https://img.shields.io/badge/license-Apache-blue.svg" />
   </a>
 </p>
@@ -56,7 +56,12 @@ The rest of the repo is the unmodified starter app, which also demonstrates:
 
 If you haven't already done so, follow the instructions in [this tutorial](https://www.medplum.com/docs/tutorials/register) to register a Medplum project to store your data.
 
-[Fork](https://github.com/medplum/medplum-provider/fork) and clone the repo. Alternatively, this app lives in the [Medplum monorepo](https://github.com/medplum/medplum) at `examples/medplum-provider` — if you are working from the monorepo, run `npm ci` and `npm run build` at the repo root first so the workspace packages are built.
+[Fork](https://github.com/vintasoftware/medplum-provider-metriport/fork) and clone the repo:
+
+```bash
+git clone https://github.com/vintasoftware/medplum-provider-metriport.git
+cd medplum-provider-metriport
+```
 
 This project runs on Node 22 or later, which is pinned in `.nvmrc`.
 
@@ -291,7 +296,7 @@ Some fields in this app (diagnoses, medications, race/ethnicity, and others) aut
 
 [Medplum](https://www.medplum.com/) is an open-source, API-first EHR. Medplum makes it easy to build healthcare apps quickly with less code.
 
-Medplum supports self-hosting and provides a [hosted service](https://app.medplum.com/). Medplum Hello World uses the hosted service as a backend.
+Medplum supports self-hosting and provides a [hosted service](https://app.medplum.com/). By default, this app uses the hosted service as a backend.
 
 - Read our [documentation](https://www.medplum.com/docs)
 - Browse our [react component library](https://storybook.medplum.com/)
